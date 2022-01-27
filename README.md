@@ -51,7 +51,7 @@ String uploadPath = request.getSession().getServletContext().getRealPath("/uploa
 
 ### DiskFileUpload
 
-```
+```java
 	String uploadPath = request.getSession().getServletContext().getRealPath("/uploadFile");
   
 	DiskFileUpload upload = new DiskFileUpload();
